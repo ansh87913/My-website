@@ -7,6 +7,10 @@ $("body").on("keypress", function(){
     nextSequence();
 })
 
+$("h1").on("click", function(){
+    nextSequence();
+})
+
 $(".btn").on("click", function(){
     var userChosenColour = $(this).attr("id");
     userClickedPattern.push(userChosenColour);
